@@ -1,0 +1,7 @@
+sender$ taskset -c 1 ./udpsender 192.168.254.1:4321
+receiver$ taskset -c 1 ./udpreceiver1 0.0.0.0:4321
+
+
+
+
+
